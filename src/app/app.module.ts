@@ -16,7 +16,6 @@ import { NavColComponent } from './nav-col/nav-col.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: []
 })
 export class AppModule { }
