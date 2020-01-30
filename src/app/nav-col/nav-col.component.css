@@ -1,5 +1,5 @@
 .container {
-    background-color: lavender;
+    background-color: ghostwhite;
     height:100%;
     width:100%;
     display:flex;
@@ -10,4 +10,18 @@
 .item {
     color: indigo;
     border: 1px solid indigo;
+}
+
+.img-container {
+    width: 125px;
+    height: 165px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
 }
