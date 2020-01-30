@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+.photo-crop {
+    width: 125px;
+    height: 165px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.photo-img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
