@@ -6,13 +6,17 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { NavColComponent } from './nav-col/nav-col.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ResumeComponent } from './resume/resume.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     AboutMeComponent,
-    NavColComponent
+    NavColComponent,
+    ResumeComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
