@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'All About Geula!';
+  page = 'Home';
+
+  onNavPage(event) {
+    this.page = event;
+  }
 }

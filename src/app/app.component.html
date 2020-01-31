@@ -4,10 +4,13 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-3 col-xs-12">
-            <app-nav-col></app-nav-col> 
+            <app-nav-col (navPage)="onNavPage($event)"></app-nav-col> 
         </div>
         <div class="col-md-9 col-xs-12"> 
-            <app-about-me></app-about-me> 
+            <app-about-me *ngIf = "this.page == 'Home'"></app-about-me> 
+            <app-gallery *ngIf = "this.page == 'About'"></app-gallery> 
+            <app-resume *ngIf = "this.page == 'Resume'"></app-resume> 
+            <app-gallery *ngIf = "this.page == 'Gallery'"></app-gallery> 
         </div>
     </div>
 </div>
