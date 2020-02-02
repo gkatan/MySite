@@ -9,6 +9,7 @@
 
 .container {
     height: 100%;
+    min-height: 400px;
 }
 /*TODO - find the correct css elements that I have to change here. */
 .nav-pills .nav-link.active {
