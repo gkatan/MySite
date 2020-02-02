@@ -14,25 +14,21 @@ export class NavColComponent implements OnInit {
   onClickHome() {
     this.page = 'Home';
     this.navPage.emit(this.page);
-    console.log ('page: ' + this.page);
   }
 
   onClickAbout() {
     this.page = 'About';
     this.navPage.emit(this.page);
-    console.log ('page: ' + this.page);
   }
 
   onClickResume() {
     this.page = 'Resume';
     this.navPage.emit(this.page);
-    console.log ('page: ' + this.page);
   }
 
   onClickGallery() {
     this.page = 'Gallery';
     this.navPage.emit(this.page);
-    console.log ('page: ' + this.page);
   }
 
   ngOnInit() {

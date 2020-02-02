@@ -9,14 +9,25 @@
 
 .container {
     height: 100%;
-    min-height: 400px;
 }
-/*TODO - find the correct css elements that I have to change here. */
-.nav-pills .nav-link.active {
-    background-color: indigo;
+
+.nav-link-color {
+    color: #ffffff;
 }
 
 a {
-    color: black;
     cursor: pointer;
+}
+
+.nav-pills > li > a.active {
+    background-color: #4b0082;
+    color: #ffffff;
+}
+
+.nav-pills > li > a:hover {
+    color: #4b0082 !important;
+}
+
+.nav-pills > li > a.active:hover {
+    color: #ffffff !important;
 }
