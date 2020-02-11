@@ -1,7 +1,3 @@
-.bg-custom {
-    background-color: ghostwhite;
-}
-
 .photo-container {
     padding:10px;
     width: 100%;
@@ -9,6 +5,11 @@
 
 .container {
     height: 100%;
+}
+
+/*** recoloring bootstrap's navbar items ***/
+.bg-custom {
+    background-color: ghostwhite;
 }
 
 .nav-link-color {

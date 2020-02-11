@@ -11,6 +11,7 @@ export class NavColComponent implements OnInit {
 
   constructor() { }
 
+  /* Button navigation functions */
   onClickHome() {
     this.page = 'Home';
     this.navPage.emit(this.page);

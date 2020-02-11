@@ -1,11 +1,14 @@
 <!-- <app-navbar></app-navbar> -->
-<div class="header-bar"></div>
+<div class="header-bar"></div> <!-- plain purple bar for now -->
 
+<!-- responsively resizing container for the body and sidebar -->
 <div class="container-fluid">
     <div class="row">
+        <!-- sidebar -->
         <div class="col-md-3 col-xs-12">
             <app-nav-col (navPage)="onNavPage($event)"></app-nav-col> 
         </div>
+        <!-- body of page -->
         <div class="col-md-9 col-xs-12"> 
             <app-about-me *ngIf = "this.page == 'Home'"></app-about-me> 
             <app-gallery *ngIf = "this.page == 'About'"></app-gallery> 
