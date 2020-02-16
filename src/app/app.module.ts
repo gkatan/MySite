@@ -8,6 +8,7 @@ import { NavColComponent } from './nav-col/nav-col.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ResumeComponent } from './resume/resume.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { GalleryImageComponent } from './gallery/gallery-image/gallery-image.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { GalleryComponent } from './gallery/gallery.component';
     AboutMeComponent,
     NavColComponent,
     ResumeComponent,
-    GalleryComponent
+    GalleryComponent,
+    GalleryImageComponent
   ],
   imports: [
     BrowserModule,

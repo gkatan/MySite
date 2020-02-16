@@ -1,4 +1,7 @@
-<br/>
-<p>
-  Coming soon!
-</p>
+
+
+<div class="gallery-container">
+  <app-gallery-image *ngFor="let image of images; let i = index">
+    <img src={{image}} width="1200" height="1200">
+  </app-gallery-image>
+</div>
