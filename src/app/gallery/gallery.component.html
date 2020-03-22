@@ -1,7 +1,7 @@
 
 
 <div class="gallery-container">
-  <app-gallery-image *ngFor="let image of images; let i = index">
-    <img src={{image}} width="450" height="450">
-  </app-gallery-image>
+  <div *ngFor="let image of images; let i = index">
+    <img src="{{image}}" width="250" height="250">
+  </div>
 </div>
