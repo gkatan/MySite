@@ -1,19 +1,9 @@
 <div class="gallery-container">
   <div class="row">
     
-    <app-gallery-image *ngFor="let image of images; let i = index">
-      <div class = "col-xs-12" >
-      <figure>
-      <img 
-        class="img-responsive " 
-        src="{{image.source}}" 
-        alt="{{image.name}}"
-        style="height: 250px; padding: 10px 10px 0px 10px;">
-      <figcaption style="text-align: center; font-style: italic;">
-        {{image.name}}
-      </figcaption>
-    </figure> 
-  </div>
+    <app-gallery-image *ngFor="let image of images; let i = index"
+        [imgSource]="image.source"
+        [imgName]="image.name">
   </app-gallery-image>
 
   </div>
