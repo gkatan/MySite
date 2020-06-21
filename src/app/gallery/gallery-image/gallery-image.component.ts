@@ -8,7 +8,6 @@ import { Component, OnInit, Input } from '@angular/core';
 export class GalleryImageComponent implements OnInit {
   @Input('imgSource') source: string;
   @Input('imgName') name: string;
-  
   constructor() { }
 
   ngOnInit() {
